@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotbal - Detalii</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+        .header {
+            background-color: orange; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-menu {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .header a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .header-title {
+            text-align: left;
+        }
+        .football-details {
+            padding: 20px;
+            text-align: center;
+        }
+        .football-details hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+        .football-details img {
+            float: right;
+            margin-left: 20px;
+        }
+        footer {
+            background-color: orange; 
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 300px;
+        }
+          hr.style-seven {
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">
+            <h1>Detalii despre Fotbal</h1>
+        </div>
+        <div class="header-menu">
+            <a href="index.html">Acasă</a>
+            <a href="sport.html">Sporturi</a>
+            <a href="imagini.html">Imagini</a>
+            <a href="clipuri.html">Clipuri</a>
+            <a href="documentatie.html">Documentaţie</a>
+        </div>
+    </div>
+
+    <div class="football-details">
+        <h2 style="text-align: left; font-size: 40px">Istoricul Fotbalului</h2>
+        <img src="images/fotbal.png" alt="Istoricul Fotbalului" width="400"style="position: relative; margin-right: 150px; margin-top: -90px;">
+        <p style="text-align: left; font-size: 20px;">Fotbalul este un sport de echipă practicat în întreaga lume, cu o istorie îndelungată. Originile sale pot fi urmărite până în antichitate, dar forma modernă a jocului a luat naștere în secolul al XIX-lea în Anglia.</p><br><br><br><br><br><br><br><br><br><br><br>
+
+        <hr class="style-seven">
+        <h2 style="text-align: left; font-size: 40px">Echipament</h2>
+        <img src="images/fotbalequip.png" alt="Echipament Fotbal" width="400" style="position: relative; margin-right: 150px; margin-top: -90px;">
+        <p style="text-align: left; font-size: 20px;">Printre echipamentele utilizate în fotbal se numără minge de fotbal, încălțăminte adecvată, echipament de protecție pentru portari, cum ar fi mănuși, și echipament de protecție pentru jucători, cum ar fi genunchiere și cojoc de protecție.</p>
+    </div>
+ <footer>
+    &copy; 2024 Paul Popa. Toate drepturile rezervate.
+    </footer>
+</body>
+</html>

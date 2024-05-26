@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+        }
+        .header {
+            background-color: orange;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-menu {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .header a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .header-title {
+            text-align: left;
+        }
+        .sports-illustrations {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .sport {
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .sport:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 250px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">
+            <h1>Sportul este viaţa</h1>
+        </div>
+        <div class="header-menu">
+            <a href="index.html">Acasă</a>
+            <a href="sport.html">Sporturi</a>
+            <a href="imagini.html">Imagini</a>
+            <a href="clipuri.html">Clipuri</a>
+            <a href="documentatie.html">Documentaţie</a>
+        </div>
+    </div>
+
+ 
+
+    <h2>Informații despre Sporturi</h2>
+  <table>
+    <tr>
+        <th>Nr.</th>
+        <th>Sportul</th>
+        <th>Scurte informații despre sport</th>
+        <th>Popularitate (nr. de jucători anuali)</th>
+        <th>Cei mai buni jucători din lume</th>
+        <th>Top cele mai puternice țări la acest sport</th>
+        <th>Câți bani poți face din acest sport</th>
+        <th>Cât de periculos este acest sport</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Inot</td>
+        <td>Sport aquatic în care participanții înoată pe sub apă sau pe suprafața apei.</td>
+        <td>500 milioane</td>
+        <td>Michael Phelps, Katie Ledecky</td>
+        <td>Statele Unite, Australia</td>
+        <td>Moderat - ridicat</td>
+        <td>Mediu</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Fotbal</td>
+        <td>Sport de echipă în care jucătorii încearcă să înscrie goluri împingând o minge în poarta adversarului.</td>
+        <td>4 miliarde</td>
+        <td>Lionel Messi, Cristiano Ronaldo</td>
+        <td>Brazilia, Germania</td>
+        <td>Înalt</td>
+        <td>Scăzut - mediu</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Tenis</td>
+        <td>Sport de rachetă jucat între doi jucători sau între două echipe de câte doi jucători fiecare.</td>
+        <td>1 miliard</td>
+        <td>Novak Djokovic, Rafael Nadal</td>
+        <td>Elveția, Spania</td>
+        <td>Înalt</td>
+        <td>Scăzut - mediu</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Volei</td>
+        <td>Sport de echipă în care două echipe de șase jucători încearcă să lovească o minge peste o rețea.</td>
+        <td>900 milioane</td>
+        <td>Karch Kiraly, Giba</td>
+        <td>Statele Unite, Brazilia</td>
+        <td>Mediu</td>
+        <td>Mediu</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Basket</td>
+        <td>Sport de echipă în care două echipe încearcă să înscrie puncte aruncând o minge într-un coș.</td>
+        <td>450 milioane</td>
+        <td>Michael Jordan, LeBron James</td>
+        <td>Statele Unite, Spania</td>
+        <td>Înalt</td>
+        <td>Scăzut - mediu</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Rugby</td>
+        <td>Sport de echipă similar fotbalului american, dar cu diferite reguli și tactici.</td>
+        <td>500 milioane</td>
+        <td>Richie McCaw, Jonny Wilkinson</td>
+        <td>Noua Zeelandă, Anglia</td>
+        <td>Mediu</td>
+        <td>Mediu - ridicat</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Cricket</td>
+        <td>Sport de echipă jucat cu un baston și o minge între două echipe de 11 jucători fiecare.</td>
+        <td>2.5 miliarde</td>
+        <td>Sachin Tendulkar, Sir Donald Bradman</td>
+        <td>India, Australia</td>
+        <td>Înalt</td>
+        <td>Scăzut - mediu</td>
+    </tr>
+</table>
+  <footer>
+    &copy; 2024 Paul Popa. Toate drepturile rezervate.
+    </footer>
+</body>
+</html>
